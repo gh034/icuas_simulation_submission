@@ -1,4 +1,4 @@
-# icuas_simulation_2nd_round_April_12th_submission
+# icuas_2nd_round_April_12th_submission
 
 
 run the 2 shell scripts:
