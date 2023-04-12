@@ -68,5 +68,5 @@ docker run \
   --env DISPLAY=$DISPLAY \
   --env TERM=xterm-256color \
   --name $full_container_name \
-  allenthreee/icuas_simulation_ego_yolo:latest \
+  allenthreee/icuas_simulation_ego_yolo:2nd_April_12th \
   /bin/bash
