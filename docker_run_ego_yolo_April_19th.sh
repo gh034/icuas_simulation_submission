@@ -6,7 +6,7 @@ touch $XAUTH
 xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f $XAUTH nmerge -
 
 echo "Running Docker Container"
-CONTAINER_NAME=icuas_simulation_ego_yolo
+CONTAINER_NAME=icuas_simulation_ego_yolo_April_19th
 
 # Get distro of the built image
 distro=$(docker images $CONTAINER_NAME | tail -n1 | awk '{print $2}')
@@ -38,7 +38,7 @@ done
 echo "Running in $distro"
 
 # Check if there is an already running container with the same distro
-full_container_name="icuas_simulation_ego_yolo"
+full_container_name="icuas_simulation_ego_yolo_April_19th"
 # full_container_name="${CONTAINER_NAME}_${distro}"
 running_container="$(docker container ls -al | grep $full_container_name)"
 if [ -z "$running_container" ]; then
