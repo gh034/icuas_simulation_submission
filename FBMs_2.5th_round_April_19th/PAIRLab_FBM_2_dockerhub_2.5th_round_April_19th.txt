@@ -1,0 +1,7 @@
+link to the docker image on Dockerhub:
+https://hub.docker.com/repository/docker/allenthreee/icuas_fbm2/general
+docker pull allenthreee/icuas_fbm2:2.5th_April_19th
+docker run -it allenthreee/icuas_fbm2:2.5th_April_19th /bin/bash
+
+you will find a fbm2_launch.sh under the path /home/metrics/FBM2/fbm2_launch.sh
+run ./fbm2_launch.sh, and you will find promotions to run the program.
