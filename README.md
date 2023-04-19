@@ -1,4 +1,4 @@
-# icuas_2nd_round_April_12th_submission
+# icuas_simulation_submission
 
 
 run the 2 shell scripts:
@@ -6,6 +6,13 @@ run the 2 shell scripts:
 docker_build_ego_yolo.sh
 
 docker_run_ego_yolo.sh
+
+or
+'''
+docker_build_ego_yolo_April_19th.sh
+
+docker_run_ego_yolo_April_19th.sh
+'''
 
 inside the container:
 ./startup/challenge/start.sh
